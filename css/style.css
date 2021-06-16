@@ -1,40 +1,114 @@
 /**************** extend css start ****************/
 @import url("https://fonts.googleapis.com/css?family=Aclonica|Poppins:300,400,500,600&display=swap");
 /* line 2, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_extends.scss */
-.btn_1, .live_stareams .live_stareams_slide .live_stareams_slide_img:after, .Latest_War .Latest_War_text:after, .gallery_part .single_gallery_item .single_gallery_item_iner:after, .footer_part .single_footer_part .mail_part .email_icon {
-  background-image: -webkit-gradient(linear, right top, left top, from(#ff0000), color-stop(51%, #c6019a), to(#ff0000));
-  background-image: -webkit-linear-gradient(right, #ff0000 0%, #c6019a 51%, #ff0000 100%);
-  background-image: -o-linear-gradient(right, #ff0000 0%, #c6019a 51%, #ff0000 100%);
-  background-image: linear-gradient(to left, #ff0000 0%, #c6019a 51%, #ff0000 100%);
+.btn_1,
+.live_stareams .live_stareams_slide .live_stareams_slide_img:after,
+.Latest_War .Latest_War_text:after,
+.gallery_part .single_gallery_item .single_gallery_item_iner:after,
+.footer_part .single_footer_part .mail_part .email_icon {
+  background-image: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(#ff0000),
+    color-stop(51%, #c6019a),
+    to(#ff0000)
+  );
+  background-image: -webkit-linear-gradient(
+    right,
+    #ff0000 0%,
+    #c6019a 51%,
+    #ff0000 100%
+  );
+  background-image: -o-linear-gradient(
+    right,
+    #ff0000 0%,
+    #c6019a 51%,
+    #ff0000 100%
+  );
+  background-image: linear-gradient(
+    to left,
+    #ff0000 0%,
+    #c6019a 51%,
+    #ff0000 100%
+  );
 }
 
 /* line 8, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_extends.scss */
-.single_page_menu .container .row .col-lg-12 .navbar .collapse .navbar-nav .nav-item a {
+.single_page_menu
+  .container
+  .row
+  .col-lg-12
+  .navbar
+  .collapse
+  .navbar-nav
+  .nav-item
+  a {
   color: white;
-  transition: all .5s linear;
+  transition: all 0.5s linear;
 }
 
 
+
+header {
+  background: rgb(18,55,105);
+background: linear-gradient(135deg, rgba(18,55,105,1) 17%, rgba(47,13,119,1) 52%, rgba(143,17,92,1) 78%);
+}
+
 /* line 14, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_extends.scss */
-.cta_part .banner_btn_1:hover, .cta_part .banner_btn_2:hover {
-  background-image: -webkit-gradient(linear, right top, left top, from(#57ddff), color-stop(51%, #57ddff), to(#57ddff));
-  background-image: -webkit-linear-gradient(right, #57ddff 0%, #57ddff 51%, #57ddff 100%);
-  background-image: -o-linear-gradient(right, #57ddff 0%, #57ddff 51%, #57ddff 100%);
-  background-image: linear-gradient(to left, #57ddff 0%, #57ddff 51%, #57ddff 100%);
+.cta_part .banner_btn_1:hover,
+.cta_part .banner_btn_2:hover {
+  background-image: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(#57ddff),
+    color-stop(51%, #57ddff),
+    to(#57ddff)
+  );
+  background-image: -webkit-linear-gradient(
+    right,
+    #57ddff 0%,
+    #57ddff 51%,
+    #57ddff 100%
+  );
+  background-image: -o-linear-gradient(
+    right,
+    #57ddff 0%,
+    #57ddff 51%,
+    #57ddff 100%
+  );
+  background-image: linear-gradient(
+    to left,
+    #57ddff 0%,
+    #57ddff 51%,
+    #57ddff 100%
+  );
 }
 
 /* line 26, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_extends.scss */
-.single_page_menu .container .row .col-lg-12 .navbar .collapse .navbar-nav .nav-item a:hover  {
+.single_page_menu
+  .container
+  .row
+  .col-lg-12
+  .navbar
+  .collapse
+  .navbar-nav
+  .nav-item
+  a:hover {
   color: #ff33cc;
 }
+
+
 
 /**************** extend css start ****************/
 /**************** common css start ****************/
 /* line 3, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 14px;
-  margin: 0 auto;
+  margin: 0;
+  padding: 0;
   overflow-x: hidden;
   width: 100%;
 }
@@ -69,7 +143,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
   transition: 0.5s ease-in-out;
 }
 
@@ -90,14 +163,14 @@ body {
   width: 100%;
   text-align: center;
   font-size: 6em;
-  color: rgba(255,255,255,.05);
+  color: rgba(255, 255, 255, 0.05);
   font-weight: 700;
 }
 
 .containers .cards .imgBxs img {
   max-width: 100px;
   transition: 0.5s ease-in-out;
-} 
+}
 
 .containers .cards:hover .imgBxs img {
   max-width: 75px;
@@ -129,8 +202,8 @@ body {
 }
 
 @media (max-width: 992px) {
-  .containers{
-    width:100%;
+  .containers {
+    width: 100%;
     flex-direction: column;
     align-items: center;
   }
@@ -154,7 +227,7 @@ body {
     height: 200px;
     left: 0;
   }
-  .containers .cards .imgBxs img, 
+  .containers .cards .imgBxs img,
   .containers .cards:hover .imgBxs img {
     max-width: 100px;
   }
@@ -163,8 +236,6 @@ body {
     width: 100%;
   }
 }
-
-
 
 .row {
   display: absolute;
@@ -177,6 +248,8 @@ body {
 }
 
 
+
+
 .row .column .containerrs {
   position: relative;
   z-index: 1;
@@ -184,15 +257,17 @@ body {
   justify-content: center;
   align-items: center;
   flex: wrap;
-  margin: 40px 0;
+  margin: 0;
+  padding: 0;
 }
 
 .row .column .containerrs .card {
   position: relative;
-  width: 300px;
+  width: 250px;
   height: 400px;
-  background: rgb(255, 255, 255, 0.05);
-  margin: 20px;
+  margin: 5px;
+  background: rgb(18,55,105); 
+  background: linear-gradient(135deg, rgba(18,55,105,1) 17%, rgba(47,13,119,1) 52%, rgba(143,17,92,1) 78%);
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
   border-radius: 15px;
   display: flex;
@@ -218,244 +293,41 @@ body {
 
 .row .column .containerrs .card .content .imgBx {
   position: relative;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
+  width: 9.5rem;
+  height: 9.5rem;
   overflow: hidden;
   border: 10px solid rgba(0, 0, 0, 0.25);
 }
 
-.row .column .containerrs .card .content .imgBx img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
 .row .column .containerrs .card .content .contentBx h3 {
-  color: #fff;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 20px;
   text-align: center;
   margin: 20px 0 10px;
   line-height: 1.1em;
 }
 
-.row .column .containerrs .card .content .contentBx h3 span {
-  font-size: 12px;
-  font-weight: 300;
-  text-transform: initial;
+html::-webkit-scrollbar {
+  width: 0;
 }
-
-.row .column .containerrs .card .sci {
-  position: absolute;
-  bottom: 50px;
-  display: flex;
-}
-
-.row .column .containerrs .card .sci li {
-  list-style: none;
-  margin: 0 10px;
-  transform: translateY(40px);
-  transition: 0.5s;
-  opacity: 0;
-  transition-delay: calc(0.1s * var(--i));
-}
-
-.row .column .containerrs .card:hover .sci li {
-  transform: translateY(0px);
-  opacity: 1;
-}
-
-.row .column .containerrs .card .sci li a {
-  color: #fff;
-  font-size: 24px;
-}
-
-
 
 body::-webkit-scrollbar {
-  width: 0.5rem;
-}
-
-body::-webkit-scrollbar-track {
-  background: #1e1e24;
-}
-
-body::-webkit-scrollbar-thumb {
-  background: #6649b8;
+  width: 0
 }
 
 
-
-
-
-
-
-/* line 9, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
-.message_submit_form:focus {
-  outline: none;
-}
-
-/* line 12, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
-input:hover, input:focus {
-  outline: none !important;
-}
-
-/* line 15, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
-.gray_bg {
-  background-color: #f7f7f7;
-}
-
-/* line 18, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
-.section_padding {
-  padding: 140px 0px;
-}
-
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
-  /* line 18, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
-  .section_padding {
-    padding: 100px 0px;
-  }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  /* line 18, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
-  .section_padding {
-    padding: 70px 0px;
-  }
-}
-
-@media (max-width: 576px) {
-  /* line 18, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
-  .section_padding {
-    padding: 70px 0px;
-  }
-}
-
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-  /* line 18, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
-  .section_padding {
-    padding: 70px 0px;
-  }
-}
-
-/* line 33, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
-.single_padding_top {
-  padding-top: 140px !important;
-}
-
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
-  /* line 33, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
-  .single_padding_top {
-    padding-top: 70px !important;
-  }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  /* line 33, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
-  .single_padding_top {
-    padding-top: 70px !important;
-  }
-}
-
-@media (max-width: 576px) {
-  /* line 33, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
-  .single_padding_top {
-    padding-top: 70px !important;
-  }
-}
-
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-  /* line 33, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
-  .single_padding_top {
-    padding-top: 100px !important;
-  }
-}
-
-/* line 48, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
-.padding_top {
-  padding-top: 140px;
-}
-
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
-  /* line 48, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
-  .padding_top {
-    padding-top: 100px;
-  }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  /* line 48, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
-  .padding_top {
-    padding-top: 70px;
-  }
-}
-
-@media (max-width: 576px) {
-  /* line 48, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
-  .padding_top {
-    padding-top: 70px;
-  }
-}
-
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-  /* line 48, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
-  .padding_top {
-    padding-top: 70px;
-  }
-}
-
-/* line 63, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
-.padding_bottom {
-  padding-bottom: 140px;
-}
-
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
-  /* line 63, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
-  .padding_bottom {
-    padding-bottom: 100px;
-  }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  /* line 63, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
-  .padding_bottom {
-    padding-bottom: 70px;
-  }
-}
-
-@media (max-width: 576px) {
-  /* line 63, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
-  .padding_bottom {
-    padding-bottom: 70px;
-  }
-}
-
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-  /* line 63, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
-  .padding_bottom {
-    padding-bottom: 70px;
-  }
-}
-
-
-
-
-#team{
+#team {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width:100%;
+  width: 100%;
   padding: 20px;
 }
-.team-heading{
+.team-heading {
   font-size: 2.2rem;
   padding: 10px 20px;
   margin: 0 auto;
@@ -466,17 +338,17 @@ input:hover, input:focus {
   border-bottom: 1px solid #c6019a;
   text-align: center;
 }
-.member-box{
+.member-box {
   position: relative;
   cursor: pointer;
 }
-.member-img{
-  width:362px;
+.member-img {
+  width: 362px;
   height: 542px;
   position: relative;
 }
-.member-img img{
-  width:100%;
+.member-img img {
+  width: 100%;
   height: 100%;
   object-position: center;
   object-fit: cover;
@@ -486,61 +358,60 @@ input:hover, input:focus {
   height: 0;
   width: 0;
 }
-.hover-img{
+.hover-img {
   position: absolute;
   left: 0px;
   top: 0px;
-  width:100%;
+  width: 100%;
   height: 100%;
   z-index: 1;
   display: none;
 }
 
-.member-box:hover .image{
+.member-box:hover .image {
   opacity: 0;
 }
 
-
-.member-box:hover .hover-img{
+.member-box:hover .hover-img {
   display: block;
   animation: fade 0.3s;
 }
-@keyframes fade{
-  0%{
-      opacity: 0;
+@keyframes fade {
+  0% {
+    opacity: 0;
   }
-  100%{
-      opacity: 1;
+  100% {
+    opacity: 1;
   }
 }
-.member-name{
-  width:100%;
+.member-name {
+  width: 100%;
   padding: 20px 10px;
   z-index: 2;
 }
-.member-name h3{
+.member-name h3 {
   color: white;
   margin: 0px;
   letter-spacing: 0.3px;
 }
-.member-name h5{
+.member-name h5 {
   color: white;
   margin-bottom: 6rem;
   letter-spacing: 0.3px;
 }
-.member-name h4{
+.member-name h4 {
   font-weight: 500;
 }
-.member-name h4:hover{
+.member-name h4:hover {
   outline: none;
   text-decoration: none;
   -webkit-transform: scale(1.2);
 }
-.member-name h3{
+.member-name h3 {
   text-transform: uppercase;
   font-weight: 800;
 }
-.team-box-container{
+.team-box-container {
   display: grid;
   grid-template-columns: 362px 362px 362px;
   grid-template-rows: auto auto auto;
@@ -548,77 +419,77 @@ input:hover, input:focus {
   grid-auto-rows: auto;
   grid-gap: 20px;
 }
-.member-detail-box{
+.member-detail-box {
   display: grid;
   grid-template-columns: 0.5fr 1.5fr;
   grid-template-rows: auto;
   grid-gap: 20px;
-  box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
 }
 .detail-box-1,
 .detail-box-2,
 .detail-box-3,
 .detail-box-4,
 .detail-box-5,
-.detail-box-6{
+.detail-box-6 {
   grid-column: 1/4;
   display: none;
 }
-.detail-box-img{
-  width:300px;
+.detail-box-img {
+  width: 300px;
   height: auto;
 }
-.detail-box-img img{
-  width:100%;
+.detail-box-img img {
+  width: 100%;
   height: 100%;
   object-position: center;
   object-fit: cover;
 }
-.detail-box-text{
+.detail-box-text {
   padding: 20px 20px 20px 0px;
   position: relative;
 }
-.detail-name{
+.detail-name {
   font-size: 2rem;
   color: #ff66ff;
   font-weight: 700;
 }
-.member-social-links{
+.member-social-links {
   display: flex;
   align-items: center;
 }
-.member-social-links a{
-  width:30px;
+.member-social-links a {
+  width: 30px;
   height: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(0,0,0,0.1);
+  background-color: rgba(0, 0, 0, 0.1);
   margin: 5px;
   border-radius: 50%;
   font-size: 0.9rem;
   color: white;
 }
-.member-social-links a:hover{
+.member-social-links a:hover {
   color: #c6019a;
   background-color: white;
   transition: all ease 0.3s;
 }
-.detail-box-text .position{
+.detail-box-text .position {
   color: white;
   border-bottom: 1px solid #ff66ff;
   margin-bottom: 1rem;
   padding: 1rem 0px;
-  width:97%;
+  width: 97%;
 }
-.detail-box-text p{
+.detail-box-text p {
   margin-bottom: 2rem;
   color: white;
   font-weight: 500;
   font-size: 0.9rem;
 }
-.view-work-btn{
-  width:150px;
+.view-work-btn {
+  width: 150px;
   height: 45px;
   display: flex;
   justify-content: center;
@@ -631,11 +502,11 @@ input:hover, input:focus {
   background-color: #c6019a;
   transition: all ease 0.3s;
 }
-.cancel{
+.cancel {
   position: absolute;
   right: 30px;
   top: 20px;
-  width:40px;
+  width: 40px;
   height: 40px;
   display: flex;
   justify-content: center;
@@ -648,197 +519,155 @@ input:hover, input:focus {
 }
 .show-details-1,
 .show-details-2,
-.show-details-3{
+.show-details-3 {
   display: grid;
   grid-row: 2/3;
   animation: fade 0.3s;
 }
 .show-details-4,
 .show-details-5,
-.show-details-6{
+.show-details-6 {
   display: grid;
   grid-row: 3/4;
   animation: fade 0.3s;
 }
 
-@media(max-width:1200px){
-  .team-box-container{
-      grid-template-columns: 303px 303px 303px;
+@media (max-width: 1200px) {
+  .team-box-container {
+    grid-template-columns: 303px 303px 303px;
   }
-  .member-img{
-      width:303px;
-      height: 450px;
-  }
-}
-@media(max-width:990px){
-  .team-box-container{
-      grid-template-columns: 232px 232px 232px;
-      grid-gap: 10px;
-  }
-  .member-img{
-      width:232px;
-      height: 335px;
-  }
-  .member-detail-box{
-      grid-gap: 10px;
-  }
-  .detail-box-text{
-      padding: 10px;
-  }
-  .cancel{
-      top:10px;
-      right: 10px;
+  .member-img {
+    width: 303px;
+    height: 450px;
   }
 }
-@media(max-width:800px){
-  .team-box-container{
-      grid-template-columns: 340px 340px;
+@media (max-width: 990px) {
+  .team-box-container {
+    grid-template-columns: 232px 232px 232px;
+    grid-gap: 10px;
   }
-  .member-img{
-      width:340px;
-      height: 510px;
+  .member-img {
+    width: 232px;
+    height: 335px;
+  }
+  .member-detail-box {
+    grid-gap: 10px;
+  }
+  .detail-box-text {
+    padding: 10px;
+  }
+  .cancel {
+    top: 10px;
+    right: 10px;
+  }
+}
+@media (max-width: 800px) {
+  .team-box-container {
+    grid-template-columns: 340px 340px;
+  }
+  .member-img {
+    width: 340px;
+    height: 510px;
   }
   .show-details-1,
-  .show-details-2{
-      display: grid;
-      grid-row: 2/3;
-      grid-column: 1/3;
+  .show-details-2 {
+    display: grid;
+    grid-row: 2/3;
+    grid-column: 1/3;
   }
   .show-details-3,
-  .show-details-4{
-      display: grid;
-      grid-row: 3/4;
-      grid-column: 1/3;
+  .show-details-4 {
+    display: grid;
+    grid-row: 3/4;
+    grid-column: 1/3;
   }
   .show-details-5,
-  .show-details-6{
-      display: grid;
-      grid-row: 4/5;
-      grid-column: 1/3;
+  .show-details-6 {
+    display: grid;
+    grid-row: 4/5;
+    grid-column: 1/3;
   }
 }
-@media(max-width:745px){
-  .team-box-container{
-      grid-template-columns: 250px 250px;
+@media (max-width: 745px) {
+  .team-box-container {
+    grid-template-columns: 250px 250px;
   }
-  .member-img{
-      width:250px;
-      height: 375px;
+  .member-img {
+    width: 250px;
+    height: 375px;
   }
-  .member-detail-box{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      padding: 20px 0px;
-      position: relative;
+  .member-detail-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    position: relative;
   }
-  .detail-box-text{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      position: static;
-  }
-}
-@media(max-width:575px){
-  .team-box-container{
-      grid-template-columns: 1fr 1fr;
-      grid-gap: 10px;
-  }
-  .member-img{
-      width:100%;
-      height: 355px;
-  }
-  #team{
-      padding: 10px;
-  }
-  .team-heading{
-      font-size: 1.7rem;
-      color: white
+  .detail-box-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: static;
   }
 }
-@media(max-width:450px){
-  .team-box-container{
-      grid-template-columns: 1fr;
+@media (max-width: 575px) {
+  .team-box-container {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
   }
-  .member-img{
-      height: 500px;
+  .member-img {
+    width: 100%;
+    height: 355px;
+  }
+  #team {
+    padding: 10px;
+  }
+  .team-heading {
+    font-size: 1.7rem;
+    color: white;
+  }
+}
+@media (max-width: 450px) {
+  .team-box-container {
+    grid-template-columns: 1fr;
+  }
+  .member-img {
+    height: 500px;
   }
   .show-details-1,
   .show-details-2,
   .show-details-3,
   .show-details-4,
   .show-details-5,
-  .show-details-6{
-      grid-column: 1/2;
+  .show-details-6 {
+    grid-column: 1/2;
   }
-  .show-details-1{
-      grid-row: 2/3;
+  .show-details-1 {
+    grid-row: 2/3;
   }
-  .show-details-2{
-      grid-row: 3/4;
+  .show-details-2 {
+    grid-row: 3/4;
   }
-  .show-details-3{
-      grid-row: 4/5;
+  .show-details-3 {
+    grid-row: 4/5;
   }
-  .show-details-4{
-      grid-row: 5/6;
+  .show-details-4 {
+    grid-row: 5/6;
   }
-  .show-details-5{
-      grid-row: 6/7;
+  .show-details-5 {
+    grid-row: 6/7;
   }
-  .show-details-6{
-      grid-row: 7/8;
+  .show-details-6 {
+    grid-row: 7/8;
   }
 }
 
-.testimonial-main {
-  width: 90%;
-  height: auto;
-  margin: auto;
-  margin-top: 70px;
+.active {
+  width: 45px !important;
 }
-
-.testimonial-main:before {
-  content: "";
-  position: absolute;
-  right: 6%;
-  top: 12.5%;
-  width: 70%;
-  height: 10px;
-  background: #34f3ec;
-}
-
-.testimonial-main h1 {
-  font-size: 36px;
-  color: #444;
-  line-height: 27px;
-  margin-bottom: 20px;
-  position: relative;
-  padding: 0 20px;
-}
-
-.testimonial-main h1 {
-  font-size: 18px;
-  color: #757575;
-  line-height: 27px;
-  margin-bottom: 20px;
-  position: relative;
-  padding: 0 20px;
-}
-
-.testimonial {
-  text-align: center;
-  padding: 10px 30px 10px 30px;
-  margin: 70px 15px 25px;
-  border: 15px solid #34f3ec;
-  position: relative;
-  margin-top: 80px;
-}
-
-
 
 /* line 78, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
 a {
@@ -855,9 +684,14 @@ a:hover {
 }
 
 /* line 87, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #fff;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 /* line 91, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
@@ -919,7 +753,10 @@ img {
 }
 
 /* line 132, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
-a:focus, .button:focus, button:focus, .btn:focus {
+a:focus,
+.button:focus,
+button:focus,
+.btn:focus {
   text-decoration: none;
   outline: none;
   box-shadow: none;
@@ -1027,7 +864,8 @@ a:focus, .button:focus, button:focus, .btn:focus {
 }
 
 /* line 193, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
-ul, ol {
+ul,
+ol {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -1155,7 +993,10 @@ ul, ol {
 }
 
 /* line 263, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
-.black h2, .black h3, .black h4, .black h5 {
+.black h2,
+.black h3,
+.black h4,
+.black h5 {
   color: #2f2d4e;
 }
 
@@ -1201,9 +1042,9 @@ ul, ol {
   font-family: "Aclonica", sans-serif;
   font-weight: 500;
   color: #fff;
-  -o-transition: all .4s ease-in-out;
-  -webkit-transition: all .4s ease-in-out;
-  transition: all .4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
   text-transform: capitalize;
   background-size: 200% auto;
   border: 1px solid transparent;
@@ -1249,9 +1090,9 @@ ul, ol {
   font-family: "Aclonica", sans-serif;
   font-weight: 500;
   color: #1a1a1a;
-  -o-transition: all .4s ease-in-out;
-  -webkit-transition: all .4s ease-in-out;
-  transition: all .4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
   text-transform: capitalize;
   border: 1px solid #8f9091;
   background-size: 200% auto;
@@ -1393,7 +1234,8 @@ ul, ol {
 }
 
 /* line 14, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_blog.scss */
-.blog_area a:hover, .blog_area a :hover {
+.blog_area a:hover,
+.blog_area a :hover {
   color: #ff0000;
 }
 
@@ -1403,7 +1245,12 @@ ul, ol {
 }
 
 /* line 21, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_blog.scss */
-.blog_area h1, .blog_area h2, .blog_area h3, .blog_area h4, .blog_area h5, .blog_area h6 {
+.blog_area h1,
+.blog_area h2,
+.blog_area h3,
+.blog_area h4,
+.blog_area h5,
+.blog_area h6 {
   color: #2f2d4e;
 }
 
@@ -1426,7 +1273,7 @@ ul, ol {
 
 /* line 38, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_blog.scss */
 .single-blog .thumb:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
@@ -1473,7 +1320,7 @@ ul, ol {
 
 /* line 86, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_blog.scss */
 .single-blog .tag:after {
-  content: '';
+  content: "";
   position: absolute;
   width: 1px;
   height: 10px;
@@ -1532,7 +1379,7 @@ ul, ol {
 
 /* line 137, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_blog.scss */
 .single-blog:hover .thumb:after {
-  opacity: .7;
+  opacity: 0.7;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -2513,7 +2360,7 @@ ul, ol {
 
 /* line 1263, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_blog.scss */
 .single-post-area .navigation-area .nav-left:hover .thumb img {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 @media (max-width: 767px) {
@@ -2555,7 +2402,7 @@ ul, ol {
 
 /* line 1298, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_blog.scss */
 .single-post-area .navigation-area .nav-right:hover .thumb img {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 @media (max-width: 991px) {
@@ -2841,19 +2688,22 @@ ul, ol {
 }
 
 /* line 9, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
-.main_menu .navbar-brand {
-  padding-top: 0rem;
-  padding-bottom: 0px;
-}
+
 
 /* line 14, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
 .main_menu .navbar {
   padding: 0px;
+  height: 5rem;
+  width: 100%;
 }
 
 /* line 18, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
 .main_menu .main-menu-item {
   justify-content: center;
+}
+
+.main_menu nav .collapse ul {
+  margin-left: 0;
 }
 
 /* line 21, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
@@ -2876,6 +2726,9 @@ ul, ol {
   /* line 21, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
   .main_menu .main-menu-item ul li .nav-link {
     padding: 35px 20px;
+  }
+  header .container .row .col-lg-12 nav .collapse ul li a {
+    font-size: 14px;
   }
 }
 
@@ -2907,10 +2760,7 @@ ul, ol {
   color: #fff;
 }
 
-/* line 69, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
-.main_menu .dropdown-toggle:hover .nav-item .dropdown {
-  color: #ff0000 !important;
-}
+
 
 /* line 75, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
 .main_menu #search_input_box {
@@ -2990,8 +2840,8 @@ ul, ol {
 /* line 140, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
 .cart .dropdown-toggle::after {
   display: inline-block;
-  margin-left: .255em;
-  vertical-align: .255em;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
   content: "";
   border: 0px solid transparent;
 }
@@ -3020,52 +2870,14 @@ ul, ol {
 }
 
 /* line 171, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
-.menu_fixed {
-  position: fixed;
-  z-index: 9999 !important;
-  width: 100%;
-  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.05);
-  top: 0;
-  background-image: url("../img/body_bg.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
 /* line 179, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
-.menu_fixed .active_color {
-  color: #ff0000 !important;
-}
 
-/* line 185, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
-.dropdown .dropdown-menu {
-  transition: all 0.5s;
-  overflow: hidden;
-  transform-origin: top center;
-  transform: scale(1, 0);
-  display: block;
-  border: 0px solid transparent;
-  background-color: #ff0000;
-}
 
-/* line 194, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
-.dropdown .dropdown-menu .dropdown-item {
-  font-size: 14px;
-  padding: 8px 20px !important;
-  color: #fff !important;
-  background-color: #ff0000;
-  text-transform: capitalize;
-}
-
-/* line 205, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
-.dropdown:hover .dropdown-menu {
-  transform: scale(1);
-}
-
-@media (max-width: 991px) {
+@media (max-width: 992px) {
   /* line 214, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
   .main_menu {
-    padding: 26px 0px;
+    padding-top: 26px 0px;
   }
   /* line 218, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
   .home_menu .main-menu-item {
@@ -3088,10 +2900,11 @@ ul, ol {
   .navbar-collapse {
     z-index: 9999 !important;
     position: absolute;
-    left: 0;
-    top: 50px;
-    width: 100%;
-    background-image: url("../img/body_bg.png");
+    margin-left: 21rem;
+    margin-top: 2rem;
+    width: 90%;
+    background: rgb(18,55,105);
+    background: linear-gradient(135deg, rgba(18,55,105,1) 17%, rgba(47,13,119,1) 52%, rgba(143,17,92,1) 78%);
     text-align: center !important;
   }
   /* line 246, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
@@ -3111,9 +2924,7 @@ ul, ol {
     color: #ff0000 !important;
   }
   /* line 265, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
-  .navbar-brand img {
-    max-width: 100px;
-  }
+  
   /* line 269, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
   .navbar-light .navbar-toggler {
     border-color: transparent;
@@ -3124,32 +2935,59 @@ ul, ol {
   }
 }
 
+@media only screen and (max-width: 575px) {
+  .navbar-collapse {
+    z-index: 9999 !important;
+    position: absolute;
+    width: 40%;
+    top: 3rem;
+    margin-left: 55%;
+    background-color: #fff;
+    text-align: center !important;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .main_menu .navbar {
+    height: 5rem;
+    width: 100%
+  }
+  
+  
+
+  /* line 291, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
+  
+  /* line 301, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
+  .navbar-light .navbar-toggler {
+    border-color: transparent;
+    position: absolute;
+    left: 80%;
+  }
+}
+
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 281, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
   .navbar-collapse {
     z-index: 9999 !important;
     position: absolute;
-    left: 0;
-    top: 50px;
-    width: 100%;
+    width: 15rem;
+    top: 3rem;
+    margin-left: 16rem;
     background-color: #fff;
     text-align: center !important;
   }
+
+
+
   /* line 291, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
-  .navbar-brand img {
-    max-width: 100px;
-    margin: 0 auto;
-    position: absolute;
-    left: 0;
-    right: 0;
-    display: inline-block;
-    top: 10px;
-  }
+  
   /* line 301, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
   .navbar-light .navbar-toggler {
     border-color: transparent;
     position: absolute;
-    left: 0;
+    left: 26rem;
   }
   /* line 307, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
   .btn_1 {
@@ -3162,27 +3000,18 @@ ul, ol {
   .navbar-collapse {
     z-index: 9999 !important;
     position: absolute;
-    left: 0;
     top: 50px;
-    width: 100%;
+    width: 50%;
     background-color: #fff;
     text-align: center !important;
   }
   /* line 323, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
-  .navbar-brand img {
-    max-width: 100px;
-    margin: 0 auto;
-    position: absolute;
-    left: 0;
-    right: 0;
-    display: inline-block;
-    top: 10px;
-  }
+  
   /* line 333, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
   .navbar-light .navbar-toggler {
     border-color: transparent;
     position: absolute;
-    left: 0;
+    left: 90%;
   }
   /* line 339, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
   .btn_1 {
@@ -3278,6 +3107,12 @@ ul, ol {
     margin-bottom: 15px;
     line-height: 1.3;
   }
+  .banner_part {
+    overflow-y: hidden;
+    margin: 0;
+    padding: 0;
+  }
+  
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -3307,10 +3142,7 @@ ul, ol {
   }
 }
 
-/* line 49, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_banner.scss */
-.banner_part .banner_text h1 span {
-  color: #ff0000;
-}
+
 
 /* line 53, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_banner.scss */
 .banner_part .banner_text p {
@@ -3493,7 +3325,10 @@ ul, ol {
 }
 
 /* line 84, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_live_stareams.scss */
-.live_stareams .live_stareams_slide .live_stareams_slide_img .video-play-button {
+.live_stareams
+  .live_stareams_slide
+  .live_stareams_slide_img
+  .video-play-button {
   position: absolute;
   left: 0;
   right: 0;
@@ -3508,7 +3343,11 @@ ul, ol {
 }
 
 /* line 96, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_live_stareams.scss */
-.live_stareams .live_stareams_slide .live_stareams_slide_img .video-play-button span {
+.live_stareams
+  .live_stareams_slide
+  .live_stareams_slide_img
+  .video-play-button
+  span {
   width: 60px;
   height: 60px;
   line-height: 60px;
@@ -3523,23 +3362,28 @@ ul, ol {
 
 /* line 111, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_live_stareams.scss */
 .live_stareams .live_stareams_slide .live_stareams_slide_img:hover:after {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 /* line 114, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_live_stareams.scss */
-.live_stareams .live_stareams_slide .live_stareams_slide_img:hover .video-play-button {
+.live_stareams
+  .live_stareams_slide
+  .live_stareams_slide_img:hover
+  .video-play-button {
   opacity: 1;
   visibility: visible;
 }
 
 /* line 138, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_live_stareams.scss */
-.live_stareams .owl-next, .live_stareams .owl-prev {
+.live_stareams .owl-next,
+.live_stareams .owl-prev {
   position: absolute;
   margin-top: 20px;
 }
 
 /* line 141, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_live_stareams.scss */
-.live_stareams .owl-next i, .live_stareams .owl-prev i {
+.live_stareams .owl-next i,
+.live_stareams .owl-prev i {
   font-size: 30px;
   color: #fff;
 }
@@ -3602,7 +3446,7 @@ ul, ol {
 
 /* line 43, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_Latest_War.scss */
 .Latest_War .Latest_War_text:hover:after {
-  opacity: .7;
+  opacity: 0.7;
 }
 
 /* line 47, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_Latest_War.scss */
@@ -3773,7 +3617,10 @@ ul, ol {
 }
 
 /* line 27, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_gallery_part.scss */
-.gallery_part .single_gallery_item .single_gallery_item_iner .gallery_item_text {
+.gallery_part
+  .single_gallery_item
+  .single_gallery_item_iner
+  .gallery_item_text {
   position: absolute;
   left: 0;
   right: 0;
@@ -3792,7 +3639,11 @@ ul, ol {
 }
 
 /* line 42, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_gallery_part.scss */
-.gallery_part .single_gallery_item .single_gallery_item_iner .gallery_item_text h3 {
+.gallery_part
+  .single_gallery_item
+  .single_gallery_item_iner
+  .gallery_item_text
+  h3 {
   color: #fff;
   font-size: 20px;
   position: relative;
@@ -3801,7 +3652,11 @@ ul, ol {
 }
 
 /* line 50, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_gallery_part.scss */
-.gallery_part .single_gallery_item .single_gallery_item_iner .gallery_item_text p {
+.gallery_part
+  .single_gallery_item
+  .single_gallery_item_iner
+  .gallery_item_text
+  p {
   color: #fff;
 }
 
@@ -3819,7 +3674,7 @@ ul, ol {
 
 /* line 70, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_gallery_part.scss */
 .gallery_part .grid:after {
-  content: '';
+  content: "";
   display: block;
   clear: both;
 }
@@ -5095,7 +4950,12 @@ h6 {
 }
 
 /* line 117, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_elements.scss */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   line-height: 1.2em;
 }
 
@@ -5137,7 +4997,7 @@ h1, h2, h3, h4, h5, h6 {
   outline: none;
   line-height: 40px;
   padding: 0 30px;
-  font-size: .8em;
+  font-size: 0.8em;
   text-align: center;
   text-decoration: none;
   font-weight: 500;
@@ -5970,7 +5830,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 798, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_elements.scss */
 .primary-checkbox input:checked + label {
-  background: url(../img/elements/primary-check.png) no-repeat center center/cover;
+  background: url(../img/elements/primary-check.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -6012,7 +5873,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 835, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_elements.scss */
 .confirm-checkbox input:checked + label {
-  background: url(../img/elements/success-check.png) no-repeat center center/cover;
+  background: url(../img/elements/success-check.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -6060,7 +5922,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 876, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_elements.scss */
 .disabled-checkbox input:checked + label {
-  background: url(../img/elements/disabled-check.png) no-repeat center center/cover;
+  background: url(../img/elements/disabled-check.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -6102,7 +5965,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 913, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_elements.scss */
 .primary-radio input:checked + label {
-  background: url(../img/elements/primary-radio.png) no-repeat center center/cover;
+  background: url(../img/elements/primary-radio.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -6144,7 +6008,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 950, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_elements.scss */
 .confirm-radio input:checked + label {
-  background: url(../img/elements/success-radio.png) no-repeat center center/cover;
+  background: url(../img/elements/success-radio.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -6192,7 +6057,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 991, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_elements.scss */
 .disabled-radio input:checked + label {
-  background: url(../img/elements/disabled-radio.png) no-repeat center center/cover;
+  background: url(../img/elements/disabled-radio.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -6634,7 +6500,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* line 9, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_contact.scss */
-.contact-info__icon i, .contact-info__icon span {
+.contact-info__icon i,
+.contact-info__icon span {
   color: #8f9195;
   font-size: 27px;
 }
