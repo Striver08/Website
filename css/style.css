@@ -14,7 +14,7 @@
   .nav-item
   a {
   color: white;
-  transition: all 0.5s linear;
+  /* transition: all 0.5s linear; */
 }
 
 
@@ -317,6 +317,7 @@ body::-webkit-scrollbar {
 .member-box {
   position: relative;
   cursor: pointer;
+  background-color: gray;
 }
 .member-img {
   width: 362px;
@@ -4632,7 +4633,7 @@ ol {
 /**********************footer part css*******************/
 /* line 3, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_footer.scss */
 .footer_part .footer_top {
-  padding: 140px 0 100px;
+  padding: 100px 0 100px;
 }
 
 @media (max-width: 576px) {
